@@ -1,0 +1,164 @@
+.body {
+  background-color: #969678;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+
+.mainwindow {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #666854;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.textwindow {
+  background: linear-gradient(
+    180deg,
+    #997157 0%,
+    #96957b 37.99%,
+    #96957b 76.42%,
+    #997157 100%
+  );
+  border-left: 2px solid #000000;
+  height: 100%;
+  width: 40%;
+}
+
+.title {
+  font-family: adobe-jenson-pro-caption, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 58px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+}
+
+.text {
+  font-family: adobe-jenson-pro, serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 34px;
+  padding: 10%;
+  height: 30%;
+  overflow: scroll;
+}
+
+.text_sea_urchin {
+  font-family: adobe-jenson-pro, serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 34px;
+  padding: 10%;
+  height: 60%;
+  overflow: scroll;
+}
+
+.businesscard {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #969678 99.98%,
+    #f1e3d2 99.99%
+    );
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  margin: 10%;
+  height: 225px;
+  padding: 15px;
+}
+
+.businesscard:hover {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #f1e3d2 99.99%,
+      #969678 99.98%);
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    margin: 10%;
+    height: 225px;
+    padding: 15px;
+  }
+
+.cardtext {
+  font-family: Adobe Jenson Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.photowindow {
+    position: relative;
+    background: radial-gradient(
+    50% 50% at 50% 50%,
+    #96957b 0%,
+    #7b7c65 55.73%,
+    #666854 100%
+    );
+    height: 100%;
+  width: 60%;
+  z-index: 10;
+}
+
+
+img{
+    width: 20%;
+    height: auto;
+    border: 2px solid black;
+    margin: 10px;
+    transform: rotate(270deg);
+}
+
+.scrollbartrack{
+    height: 100%;
+    width: 8px;
+    border-left: 2px solid black;
+    z-index: 20;
+    position: absolute;
+    right: 0px;
+}
+
+a {
+  color: black;
+  background: rgb(237, 221, 204);
+  background: linear-gradient(
+    180deg,
+    rgba(237, 221, 204, 1) 69%,
+    rgba(237, 221, 204, 0) 69%,
+    rgba(237, 221, 204, 0) 100%
+  );
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f1e3d2;
+  background: rgb(89, 96, 105);
+  background: linear-gradient(
+    180deg,
+    rgba(89, 96, 105, 1) 69%,
+    rgba(89, 96, 105, 0) 69%,
+    rgba(89, 96, 105, 0) 100%
+  );
+  text-decoration: none;
+}
+
+/* width */
+.text::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Handle */
+.text::-webkit-scrollbar-thumb {
+  background: #f1e3d2;
+}
+
+::-webkit-scrollbar-corner {
+  color: none;
+}
