@@ -67,8 +67,12 @@
 
 
 .addtocatalog{
+    font-family: Adobe Jenson Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16pt;
     width: 200px;
-    height: 90px;
+    height: 70px;
     border-radius: 50%;
     border: 2px solid black;
     background: rgb(153,113,87);
@@ -77,10 +81,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Adobe Jenson Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18pt;
     bottom: -25px;
     position: relative;
 }
@@ -93,10 +93,10 @@
 
 .buttonshadow{
     width: 200px;
-    height: 90px;
+    height: 70px;
     border-radius: 50%;
     border: 2px solid black;
-    bottom: 60px;
+    bottom: 40px;
     z-index: 30;
     position: relative;
 }
@@ -249,19 +249,23 @@ a.textlink:hover {
   }
   
   /* Handle */
-  .text::-webkit-scrollbar-thumb {
+.text::-webkit-scrollbar-thumb {
     background: #f1e3d2;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-  }
+}
   
-  .text::-webkit-scrollbar-corner {
+.text::-webkit-scrollbar-corner {
     color: none;
-  }
+}
+
+.textwindow::-webkit-scrollbar-corner {
+    color: none;
+}
 
 .photowindow::-webkit-scrollbar {
     width: 10px;
-  }
+}
   
   /* Handle */
 .photowindow::-webkit-scrollbar-thumb {
@@ -278,7 +282,6 @@ a.textlink:hover {
 .photowindow::-webkit-scrollbar-track {
     border-left: 2px solid black;
 }
-
 
 
 
@@ -370,9 +373,6 @@ a.textlink:hover {
         font-size: 18pt;
         height: 60%;
     }
-
-
-
-
+}
 
 }
