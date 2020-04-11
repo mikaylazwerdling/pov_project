@@ -1,8 +1,11 @@
+@import url("https://use.typekit.net/yms4lll.css");
+
 .body {
   background-color: #969678;
   width: 100%;
   height: auto;
   padding: 50px;
+  cursor: url("../pov_project/assets/cursortest.svg"), default;
 }
 
 
@@ -33,9 +36,9 @@
 }
 
 .title {
-  font-family: adobe-jenson-pro-caption, serif;
+  font-family: "adobe-jenson-pro", serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 52px;
   line-height: 58px;
   padding-left: 10%;
@@ -44,7 +47,7 @@
 }
 
 .textmain {
-  font-family: adobe-jenson-pro, serif;
+  font-family: "adobe-jenson-pro", serif;
   font-style: normal;
   font-weight: 200;
   font-size: 30px;
@@ -55,7 +58,7 @@
 }
 
 .text {
-    font-family: adobe-jenson-pro, serif;
+    font-family: "adobe-jenson-pro", serif;
     font-style: normal;
     font-weight: 200;
     font-size: 30px;
@@ -67,7 +70,7 @@
 
 
 .addtocatalog{
-    font-family: Adobe Jenson Pro;
+    font-family: "adobe-jenson-pro";
     font-style: normal;
     font-weight: normal;
     font-size: 16pt;
@@ -83,6 +86,7 @@
     align-items: center;
     bottom: -25px;
     position: relative;
+    text-decoration: none;
 }
 
 .addtocatalog:hover{
@@ -118,6 +122,25 @@
     align-self: center;
 }
 
+a.keep_looking:link{
+  color: #000000;
+  text-decoration: none;
+}
+
+a.keep_looking:hover{
+  color: #000000;
+  text-decoration: none;
+}
+
+a.keep_looking:visited{
+  color: #000000;
+  text-decoration: none;
+}
+
+a.keep_looking:active{
+  color: #000000;
+  text-decoration: none;
+}
 
 .businesscard {
   background: radial-gradient(
@@ -146,14 +169,13 @@
   }
 
 .cardtext {
-  font-family: Adobe Jenson Pro;
+  font-family: "adobe-jenson-pro";
   font-style: normal;
   font-weight: normal;
   font-size: 40pt;
 }
 
 .photowindow {
-
     padding: 10px;
     background: radial-gradient(
     50% 50% at 50% 50%,
@@ -167,6 +189,23 @@
   display: flex;
   flex-wrap: wrap;
   overflow: scroll;
+}
+
+.photowindowbig {
+  padding: 20px;
+  background: radial-gradient(
+  50% 50% at 50% 50%,
+  #96957b 0%,
+  #7b7c65 55.73%,
+  #666854 100%
+  );
+  height: 100%;
+  width: 60%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 
 }
 
@@ -190,9 +229,26 @@ img{
 }
 
 img:hover{
-    transform: scale(1.03);
+    transform: scale(.98);
+    border: 2px solid #f1e3d2;
 }
 
+img.big:hover{
+  transform: none;
+}
+
+.big{
+  margin: 30px;
+  width: 90%;
+  height: auto;
+}
+
+.big{
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  margin: 20px;
+}
 
 .scrollbartrack{
     height: 100%;
@@ -227,6 +283,12 @@ a.textlink:hover {
   );
   text-decoration: none;
 }
+
+
+
+
+
+
 
 /* width */
 .textmain::-webkit-scrollbar {
@@ -282,10 +344,6 @@ a.textlink:hover {
 .photowindow::-webkit-scrollbar-track {
     border-left: 2px solid black;
 }
-
-
-
-
 
 
 
